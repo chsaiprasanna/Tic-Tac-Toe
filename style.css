@@ -1,0 +1,34 @@
+h1{
+    text-align: center;
+}
+body{
+    background-color: #265073;
+}
+.game{
+    height: 100px;
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 540px;
+    padding-top: 50px;
+}
+.box{
+    height:100px;
+    width: 100px;
+    margin: 1.5px;
+    border-radius: 7px;
+    font-size:40px ;   
+    color: #B0413e;
+    background-color: #9AD0C2;
+}
+p{
+    text-align: center;
+}
+#msg{
+    color: #9AD0C2;
+    font-size: 60px;
+}
+.hide{
+    display: none;
+}
