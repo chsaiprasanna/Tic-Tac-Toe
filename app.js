@@ -37,9 +37,9 @@ b.forEach((bo)=>
 const d=(winner)=>{
     msg.innerText=`Congratulations,winner is ${winner}`;
     msgContainer.classList.remove("hide");
-    //for(let bo of b){
-    //    bo.disabled=true
-    //}
+    for(let bo of b){
+        bo.disabled=true
+    }
 }
 
 const checkwinner=()=>{
